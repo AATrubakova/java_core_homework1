@@ -13,7 +13,7 @@ public class Application {
         };
 
         Team team1 = new Team("juniors");
-        Team team2 = new Team("Older 20");
+        Team team2 = new Team("Older than twenty");
 
         for( Member member: members) {
             if (member.age <= 20) {
